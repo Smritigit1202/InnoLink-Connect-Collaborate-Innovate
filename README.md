@@ -6,9 +6,8 @@ A dynamic social media platform built with **Django, Vue.js, and MySQL**, design
 ✅ **Post Creation** – Share **business ideas** via text, images, and GIFs  
 ✅ **Engagement Features** – Like, dislike, and comment on ideas  
 ✅ **Follow System** – Connect with like-minded entrepreneurs  
-✅ **Profile Pages** – Personal bio, posts, and follower insights 
+✅ **Profile Pages** – Personal bio, posts, and follower insights.
 ✅ **Idea Validation Polls** – Let users vote on business ideas
-✅ **Real-time Updates** – WebSockets for live idea-sharing and interactions  
 
 ## 📊 Tech Stack  
 - **Backend:** Django + Django REST Framework  
@@ -25,5 +24,6 @@ Entrepreneurs often lack a **dedicated space** to **discuss, validate, and refin
 🔹 Messaging System – Secure DMs to discuss partnerships
 🔹 Trending Ideas – Highlight the most engaging posts
 🔹 Resource Hub – Share guides, templates, and funding tips
+🔹 Real-time Updates – WebSockets for live idea-sharing and interactions  
 🔹 Event Listings – Announce networking events and startup meetups
 
