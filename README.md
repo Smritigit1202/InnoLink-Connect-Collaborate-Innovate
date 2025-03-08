@@ -7,14 +7,14 @@ A dynamic social media platform built with **Django, Vue.js, and MySQL**, design
 ✅ **Engagement Features** – Like, dislike, and comment on ideas  
 ✅ **Follow System** – Connect with like-minded entrepreneurs  
 ✅ **Profile Pages** – Personal bio, posts, and follower insights.
+
 ✅ **Idea Validation Polls** – Let users vote on business ideas
 
 ## 📊 Tech Stack  
 - **Backend:** Django + Django REST Framework  
 - **Frontend:** Vue.js  
-- **Database:** MySQL  
-- **Authentication:** JWT/Auth0  
-- **Real-time Updates:** WebSockets  
+- **Database:** SQL  
+- **Authentication:** JWT/Auth0 
 
 ## 🎯 Why This Project?  
 Entrepreneurs often lack a **dedicated space** to **discuss, validate, and refine their business ideas**. EntrepreneurConnect bridges this gap by **fostering collaboration** and **encouraging feedback-driven growth**.  
