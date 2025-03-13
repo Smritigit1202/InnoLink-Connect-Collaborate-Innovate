@@ -10,8 +10,7 @@ InnoLink is a platform designed to connect **innovators, entrepreneurs, and fund
 - **Backend:** Django (Django REST Framework - DRF)
 - **Database:** SQLite3
 - **Authentication:** DRF Authentication
-- **Payment Gateway:** Paytm API (for funding transactions)
-- **Deployment:** AWS (Planned for future CI/CD implementation)
+
 
 ---
 
@@ -28,10 +27,9 @@ InnoLink is a platform designed to connect **innovators, entrepreneurs, and fund
 
 ### **3. Explore Page (Text-Based Business Ideas)**
 - Users can **post and browse startup ideas**.
-- **Upvote / Downvote system** for idea ranking.
+- **Uplike / Dislike system** for idea ranking.
 - **Funding Feature:** Investors can **fund a startup** via Paytm API.
-- **Comment Section** for discussions.
-
+- 
 ### **4. Pitch an Idea**
 - Users submit **detailed startup descriptions**.
 - Industry selection through a dropdown.
@@ -40,14 +38,12 @@ InnoLink is a platform designed to connect **innovators, entrepreneurs, and fund
 
 ### **5. Investment & Engagement**
 - Users can track **who has invested** in their business.
-- **Like visibility is disabled** for ideas.
 - Engagement via **comments and voting**.
 
 ### **6. Profile Section**
 - Display user details (Username, Email, Age, etc.).
 - Option to **edit profile**.
 - View **past image and text-based posts**.
-- **Collage view** for uploaded images.
 
 ---
 
@@ -55,7 +51,7 @@ InnoLink is a platform designed to connect **innovators, entrepreneurs, and fund
 
 ### **1. Clone the Repository**
 ```bash
-$ git clone https://github.com/yourusername/innoLink.git
+$ git clone https://github.com/smritigit1202/InnoLink-Connect-Collaborate-Innovate.git
 $ cd innoLink
 ```
 
@@ -65,7 +61,6 @@ $ cd innoLink
 $ python -m venv env
 $ source env/bin/activate   # For Linux/macOS
 $ env\Scripts\activate     # For Windows
-$ pip install -r requirements.txt
 ```
 
 #### **Run Migrations & Start Server**
@@ -77,7 +72,6 @@ $ python manage.py runserver
 ### **3. Frontend (React Setup)**
 #### **Install Dependencies**
 ```bash
-$ cd frontend
 $ npm install
 ```
 
