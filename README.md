@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# InnoLink
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Overview**
+InnoLink is a platform designed to connect **innovators, entrepreneurs, and funders**, enabling idea-sharing, collaboration, and investment opportunities. It serves as a bridge between **business-minded individuals** seeking funding and investors looking for promising ventures.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Tech Stack**
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Django (Django REST Framework - DRF)
+- **Database:** SQLite3
+- **Authentication:** DRF Authentication
+- **Payment Gateway:** Paytm API (for funding transactions)
+- **Deployment:** AWS (Planned for future CI/CD implementation)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Features**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **1. Authentication & Onboarding**
+- Users can **Sign Up / Log In** securely.
+- Introduction page to explain InnoLink’s purpose.
 
-### `npm test`
+### **2. Home Page (Image-Based Posts)**
+- Users can **share business-related images** (e.g., books, events, strategies).
+- Suggested profiles.
+- Access personal **Profile Section**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **3. Explore Page (Text-Based Business Ideas)**
+- Users can **post and browse startup ideas**.
+- **Upvote / Downvote system** for idea ranking.
+- **Funding Feature:** Investors can **fund a startup** via Paytm API.
+- **Comment Section** for discussions.
 
-### `npm run build`
+### **4. Pitch an Idea**
+- Users submit **detailed startup descriptions**.
+- Industry selection through a dropdown.
+- Specify **funding goals** and collaboration needs.
+- Option to **upload an image** with the pitch.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **5. Investment & Engagement**
+- Users can track **who has invested** in their business.
+- **Like visibility is disabled** for ideas.
+- Engagement via **comments and voting**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **6. Profile Section**
+- Display user details (Username, Email, Age, etc.).
+- Option to **edit profile**.
+- View **past image and text-based posts**.
+- **Collage view** for uploaded images.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **Installation & Setup**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **1. Clone the Repository**
+```bash
+$ git clone https://github.com/yourusername/innoLink.git
+$ cd innoLink
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **2. Backend (Django Setup)**
+#### **Create Virtual Environment & Install Dependencies**
+```bash
+$ python -m venv env
+$ source env/bin/activate   # For Linux/macOS
+$ env\Scripts\activate     # For Windows
+$ pip install -r requirements.txt
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### **Run Migrations & Start Server**
+```bash
+$ python manage.py migrate
+$ python manage.py runserver
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **3. Frontend (React Setup)**
+#### **Install Dependencies**
+```bash
+$ cd frontend
+$ npm install
+```
 
-## Learn More
+#### **Start Development Server**
+```bash
+$ npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Future Enhancements**
+- Implement **Redis caching** for faster performance.
+- Add **WebSockets** for real-time engagement.
+- CI/CD pipeline for **automated deployment** on AWS.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## **Contributing**
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m "Added new feature"`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a **Pull Request**.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
