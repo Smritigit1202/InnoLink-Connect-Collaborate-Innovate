@@ -1,0 +1,89 @@
+@keyframes like-button-animation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.post {
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  .post-header {
+    border-bottom: 1px solid #efefef;
+  }
+  .post-location {
+    color: #8e8e8e;
+    font-size: 0.765rem;
+  }
+  .post-profile {
+    .unseen-story {
+      width: 40px;
+      height: 40px;
+      top: -2px;
+      left: -4px;
+    }
+  }
+  .post-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 1px solid #00000019;
+      border-radius: 50%;
+    }
+  }
+  .post-actions {
+    button {
+      padding: 8px;
+    }
+    .like-action {
+      &.liked {
+        animation-duration: 0.45s;
+        animation-name: like-button-animation;
+        animation-timing-function: ease-in-out;
+        transform: scale(1);
+      }
+      &:not(.liked):hover svg {
+        fill: #8e8e8e;
+      }
+    }
+    .comment-action,
+    .share-action,
+    .bookmark-action {
+      &:hover {
+        svg > * {
+          stroke: #8e8e8e !important;
+        }
+      }
+    }
+  }
+  .post-date {
+    letter-spacing: 0.2px;
+    color: #8e8e8e;
+    line-height: 12px;
+    font-size: 10px;
+  }
+  .post-comments {
+    border-top: 1px solid #efefef;
+    .comment-text {
+      height: 18px;
+      resize: none;
+    }
+  }
+}
