@@ -89,17 +89,16 @@ $ npm start
 
 ---
 ## **Outputs**
-
+![1](https://github.com/user-attachments/assets/acf27a8d-c4ea-4d17-b695-27b0ea9c13b7)
+![2](https://github.com/user-attachments/assets/6aff6d9c-4f92-4161-b481-a4523dc47687)
+![3](https://github.com/user-attachments/assets/56689875-df3d-417f-a4ee-afc6faa80c99)
+![4](https://github.com/user-attachments/assets/4353a38d-f65a-412d-89f9-c510d12b9f3a)
+![5](https://github.com/user-attachments/assets/a8905f4d-bd4a-40c8-ba36-d2ba54d4602f)
 ![10](https://github.com/user-attachments/assets/c6b735b5-afbf-41e5-8b70-13b3b96e9b69)
 ![9](https://github.com/user-attachments/assets/15a9e7a8-790a-4422-9629-4f69c02b64f0)
 ![8](https://github.com/user-attachments/assets/a919ac29-4c8b-47e1-a06c-354086a37e65)
 ![7](https://github.com/user-attachments/assets/d8022aec-a701-4bfa-9627-149ef370ff74)
 ![6](https://github.com/user-attachments/assets/866fed49-6529-41a0-8cf6-b92be8d6850e)
-![5](https://github.com/user-attachments/assets/a8905f4d-bd4a-40c8-ba36-d2ba54d4602f)
-![4](https://github.com/user-attachments/assets/4353a38d-f65a-412d-89f9-c510d12b9f3a)
-![3](https://github.com/user-attachments/assets/56689875-df3d-417f-a4ee-afc6faa80c99)
-![2](https://github.com/user-attachments/assets/6aff6d9c-4f92-4161-b481-a4523dc47687)
-![1](https://github.com/user-attachments/assets/acf27a8d-c4ea-4d17-b695-27b0ea9c13b7)
 
 
 ---
